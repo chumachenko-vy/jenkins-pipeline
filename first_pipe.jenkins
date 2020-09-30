@@ -11,7 +11,7 @@ pipeline {
         timestamps()
     }
     stages {
-        stage("Preparations") {
+        stage("First Step") {
             steps {
                 sh 'ssh ssh ubuntu@35.153.226.18 \'hostname\''
             }
